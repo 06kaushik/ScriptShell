@@ -22,3 +22,15 @@ esac
 salary=$(($empHrs*$empRatePerHr))
 totalSalary=$(($totalSalary+$salary))
 done
+
+
+
+
+
+num=10
+add=0
+for((i=1; i<=num; i++))
+do
+add=$((add+i))
+done
+echo $add
